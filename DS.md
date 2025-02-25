@@ -1,12 +1,12 @@
 # DS ROADMAP:
 
 * BigO notation:
-** time complixity/space complexity
---> linear time
--->logarithmic time
+  * time complixity/space complexity
+  --> linear time
+  -->logarithmic time
 
 * Arrays-> time complexity
-** big arrays vs dynamic arrays(arrays that can grow in size)
+  * big arrays vs dynamic arrays(arrays that can grow in size)
 
 * linked list
 * Creating/ Inserting/Delrting/Locating:
@@ -18,27 +18,27 @@ which data structure to pick for specific operations
 
 * Trees (not linear data)
 
-** binary tree
+  * binary tree
 
-** binary search tree
+  * binary search tree
 
-** heaps
+  * heaps
 
-** Graphs((un)weighted/(un)Directed Graphs)
+  * Graphs((un)weighted/(un)Directed Graphs)
 
-*Hashing
+* Hashing
 
 * ALgorithms
 
-** Recursion
+  * Recursion
 
-** searching ( linear/ binary..)
+  * searching ( linear/ binary..)
 
-** sorting (insertion/selection/bubble..)
+  * sorting (insertion/selection/bubble..)
 
-**Kruskal algorithms
+  *Kruskal algorithms
 
-** path finding algorithm
+  * path finding algorithm
 
-** greedy / dividing conquer/ dynamic programming/backtraking (learn by exercising)
+  * greedy / dividing conquer/ dynamic programming/backtraking (learn by exercising)
  
