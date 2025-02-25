@@ -4,10 +4,12 @@
 
 
 ## why can't NRF communicate with wifi though the operate at the same frequency?
+
 **due to protocol,modulation and communication differences**
 --> NRF uses Gaussian frequency shift keying modulation 
 --> WIFI uses DSS, OFDM,CCK
-// these different modulation mean that wifi cannot decode nrf signals and vice versa
+//these different modulation mean that wifi cannot decode nrf signals and vice versa
+
 **protocols**
 -->nRF24L01 operates using a simple packet-based communication protocol (Enhanced ShockBurst), designed for low-power, low-data-rate applications.
 
