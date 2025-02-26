@@ -29,3 +29,6 @@
 ✅ Short SPI wires & ground plane to reduce EMI.
 ✅ Shielding & external antennas for better reception.
 ✅ FHSS (Frequency Hopping) for dynamic interference avoidance.
+
+## **Links**
+[RF24 library ](https://nrf24.github.io/RF24/functions.html)
