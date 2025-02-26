@@ -31,4 +31,6 @@
 ✅ FHSS (Frequency Hopping) for dynamic interference avoidance.
 
 ## **Links**
-[RF24 library ](https://nrf24.github.io/RF24/functions.html)
+- [RF24 library ](https://nrf24.github.io/RF24/functions.html)
+- [Arduino with nrf connection](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/)
+- [Debugging](https://github.com/nRF24/RF24/blob/master/COMMON_ISSUES.md)
