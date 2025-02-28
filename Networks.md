@@ -44,3 +44,64 @@ Example Scenario:
 - 192.168.1.2
 - 192.168.1.3
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+# hosts
+- hosts are split into clients and servers:
+**clients**: initiate requests
+**Hosts**: respond to the request
+
+- when a client requests access to a host (website) it sends 2 ip addresses the src(client ip address) Dst(destination: server) and vice versa
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+# repeater
+ between 2 devices 
+- regenerate signals to be sent across great distances
+
+# hub 
+repeater bur for multi-ports 
+
+- hub duplicates the signal and sends it to multiple devices at the same time
+
+**!!!everyone recieves everyone else's data**
+
+# bridge
+
+2 sets of hosts connected by a hub with a bridge in the middle between hub connected hosts
+- bridge only have **2** ports one  for each hub connected devices
+-  if i want to communicate between 2 devices at the same hub then the data is also sent to the bridge and it knows that it is not meant to go to the other hub then it would prevent it and the same goes for the other hub unless i want to send the data to the other hub then the bridge will allow it and all the data are sent to all the devices on the other side.
+
+# switch
+- combination of hubs and bridges 
+- like hubs: many devices are connected to each other
+- like bridges : knows which host connected to each port
+
+- **the switch knows which hosts on each port so if a device in a network only wants to communicate with another one then it can be easily sent to its port without the message being sent to other devices**
+
+
+- **multiple devices can communicate with each other at the same time**
+
+- !! all these device share the same ip address space (192.168.1.XX)
+- all these devices are within the same network
+
+# Router
+- facilitate communication between different networks ( if i ahve several switches for example)
+
+* connects the devices to the internet
+
+* provides security to different networks
+
+- creates the heriarchy of IP addresses
+
+## routing table
+- contains all the netweorks a router knows about (all different switches and the internet)
+## Gateway 
+- the router have differnt IP address for each network
+- **the Gateway** is the hosts' way out of the local network
+
+### conclusion
+Switch	|Router
+--------|---------
+ The resource is shared among multiple devices with the help of a single LAN using a network switch.       |Data is moved between two or more computers with the help of a router.
+Network switches uses data frames.   |Routers use data packets.
+Switches only work in a Wired network connection.     |Router works with both wired and wifi networks.
+Switches use MAC Addresses for transferring data to the proper destination.         |Routers use IP Addresses for the same work.
