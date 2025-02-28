@@ -105,3 +105,16 @@ Switch	|Router
 Network switches uses data frames.   |Routers use data packets.
 Switches only work in a Wired network connection.     |Router works with both wired and wifi networks.
 Switches use MAC Addresses for transferring data to the proper destination.         |Routers use IP Addresses for the same work.
+
+
+![Hub](https://resource.fs.com/mall/generalImg/PDplb4k8HoCGONxCEn7cmedwnjg.gif)
+*Figure 1: Network Hub*
+
+![Bridge](https://www.landisgyr.com/webfoo/wp-content/uploads/2019/12/Network-Bridge-Front.jpg)
+*Figure 2: Network bridge*
+![hubWithBridge](https://i.postimg.cc/j5fZFmkt/Advantages-and-Disadvantages-of-Network-Bridge.jpg)
+*Figure 3: hub bridge network*
+![Switch](https://www.cisco.com/c/dam/assets/swa/img/anchor-info/what-is-network-switching-628x353.png)
+*Figure 3: Network switch*
+![Router](https://api-rayashop.freetls.fastly.net/media/catalog/product/cache/4e49ac3a70c0b98a165f3fa6633ffee1/f/0/f0ozphn_3whznflofg9xumnj_1.jpeg)
+*Figure 4: Router 3ady*
