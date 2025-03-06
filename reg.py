@@ -23,3 +23,16 @@ if __name__=="__main__":
             print(matches[i])
     else:
         print((-1,-1))
+######################################
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import re
+if __name__=="__main__":
+    n=int(input())
+    string=[input() for i in range(n)]
+    pattern1=r"(?<= )&&(?= )"  
+    pattern2=r"(?<= )\|\|(?= )"
+    for i in range(len(string)):
+        string[i]=re.sub(pattern1,"and",string[i])
+        string[i]=re.sub(pattern2,"or",string[i])
+        print(string[i])
+    ## text replacement
